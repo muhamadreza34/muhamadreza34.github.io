@@ -7987,6 +7987,8 @@ a {
       color: #959ea3;
       font-weight: 100;
       font-size: 20px; }
+  .cover-event-top .mask .bottom .btn-xs, .cover-event-top .mask .bottom .btn-group-xs > .btn {
+    padding: 10px; }
 
 .cover-event-top a.info {
   position: relative;
@@ -9027,7 +9029,7 @@ a {
     float: left; }
 
 /* button */
-.btn-peneapple, .btn-blue {
+.btn-peneapple, .cover-event-top .mask .bottom .btn-xs, .cover-event-top .mask .bottom .btn-group-xs > .btn, .btn-blue {
   border: 1px solid #e7f0f5;
   padding: 15px 70px;
   letter-spacing: 0.3px;
@@ -9036,7 +9038,7 @@ a {
   color: #9cce00;
   font-size: 12px;
   font-weight: 600; }
-  .btn-peneapple:hover, .btn-blue:hover {
+  .btn-peneapple:hover, .cover-event-top .mask .bottom .btn-xs:hover, .cover-event-top .mask .bottom .btn-group-xs > .btn:hover, .btn-blue:hover {
     color: #fff; }
 
 .hvr-sweep-to-right2:before {
