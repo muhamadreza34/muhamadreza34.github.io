@@ -8537,6 +8537,9 @@ a {
   .cover-normal, .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover, .promoter-cover-small {
     margin-bottom: 80px !important; }
 
+  .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover {
+    margin-bottom: 110px !important; }
+
   footer img {
     margin-bottom: 40px; } }
 @media screen and (min-width: 360px) and (max-width: 480px) {
