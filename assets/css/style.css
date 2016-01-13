@@ -8556,6 +8556,11 @@ a {
   footer .link-bottom {
     margin-top: 40px; } }
 @media screen and (min-width: 500px) and (max-width: 568px) {
+  /* navigation */
+  .navbar-collapse {
+    margin-top: 20px;
+    padding-bottom: 170px; }
+
   /* home page */
   .hero-big .number-1, .hero-big .content-list .cover .number-2, .content-list .cover .hero-big .number-2, .hero-big .content-list .cover-normal .number-2, .content-list .cover-normal .hero-big .number-2, .hero-big .content-list .list-blog .blog-cover .number-2, .content-list .list-blog .blog-cover .hero-big .number-2, .hero-big .list-blog .content-list .blog-cover .number-2, .list-blog .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .blog-cover .number-2, .content-list .list-venue .blog-cover .hero-big .number-2, .hero-big .list-venue .content-list .blog-cover .number-2, .list-venue .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .venue-cover .number-2, .content-list .list-venue .venue-cover .hero-big .number-2, .hero-big .list-venue .content-list .venue-cover .number-2, .list-venue .content-list .venue-cover .hero-big .number-2, .hero-big .content-list .promoter-cover-small .number-2, .content-list .promoter-cover-small .hero-big .number-2, .hero-big .number-2 {
     width: 50%; }
@@ -8580,6 +8585,25 @@ a {
 
   footer .link-bottom {
     margin-top: 40px; } }
+@media screen and (max-width: 568px) {
+  .navbar-fixed-top .navbar-collapse {
+    width: 110%; }
+
+  .navbar-right {
+    margin-top: -20px; }
+
+  .navbar-collapse {
+    background: #363d41;
+    height: 568px;
+    padding: 20px 15px; }
+    .navbar-collapse li {
+      padding: 20px 0;
+      border-bottom: 1px solid #3C4448; }
+      .navbar-collapse li a {
+        font-size: 17px;
+        font-weight: 300;
+        text-align: center;
+        color: #70848E; } }
 @media screen and (max-width: 600px) {
   /* navbar */
   .navbar-brand {
@@ -8631,9 +8655,6 @@ a {
     width: 50px !important; }
   .list-month .tab {
     width: 100%; }
-
-  #map {
-    width: 96.3% !important; }
 
   footer {
     padding: 40px 0 60px 0 !important; }

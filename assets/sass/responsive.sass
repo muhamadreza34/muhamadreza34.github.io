@@ -55,6 +55,10 @@
 		+mar-t(40px)	
 
 @media screen and (min-width: 500px) and (max-width: 568px) 
+	/* navigation */
+	.navbar-collapse
+		margin-top: 20px
+		+pad-b(170px)
 	
 	/* home page */
 	.hero-big
@@ -77,7 +81,23 @@
 		.link-bottom
 			+mar-t(40px)
 
-
+@media screen and (max-width: 568px)
+	.navbar-fixed-top .navbar-collapse
+		width: 110%
+	.navbar-right
+		+mar-t(-20px)	
+	.navbar-collapse
+		background: #363d41
+		height: 568px
+		+pad(20px 15px)
+		li 
+			+pad(20px 0)
+			border-bottom: 1px solid #3C4448
+			a 
+				+fontsize(17px)
+				+fontweight(300)
+				text-align: center
+				color: #70848E
 
 @media screen and (max-width: 600px)
 	/* navbar */
@@ -135,8 +155,6 @@
 			width: 50px !important
 		.tab 
 			width: 100%
-	#map
-		width: 96.3% !important
 
 	footer
 		+pad(40px 0 60px 0 !important) 
