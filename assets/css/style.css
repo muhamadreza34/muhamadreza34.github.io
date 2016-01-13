@@ -8522,8 +8522,15 @@ a {
     height: 370px;
     width: 100%; } }
 @media screen and (max-width: 480px) {
+  /* event index */
+  .content-promoter .mar-t-100 {
+    margin-top: 30px !important; }
+
   .cover-normal, .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover, .promoter-cover-small {
-    height: 270px !important; } }
+    margin-bottom: 80px !important; }
+
+  footer img {
+    margin-bottom: 40px; } }
 @media screen and (min-width: 360px) and (max-width: 480px) {
   .container-bigscreen {
     padding-left: 0px !important;
@@ -9453,7 +9460,7 @@ a {
 
 /* normal event list */
 .cover-normal, .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover, .promoter-cover-small {
-  height: 220px; }
+  height: 220px !important; }
   .cover-normal .wrapper-title, .list-blog .blog-cover .wrapper-title, .list-venue .blog-cover .wrapper-title, .list-venue .venue-cover .wrapper-title, .promoter-cover-small .wrapper-title {
     bottom: -25px !important;
     left: -5px; }
