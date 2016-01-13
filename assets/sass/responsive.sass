@@ -26,6 +26,7 @@
 	.view, .cover-event-top img 
 		height: 370px
 		width: 100%
+
 	
 @media screen and (max-width: 480px)
 	.navbar-header
@@ -39,9 +40,34 @@
 		margin-bottom: 80px !important
 	.list-blog .blog-cover
 		margin-bottom: 110px !important
+
+	/* event detail */
+	.event-detail-top	.info-event
+		+pad-t(10px)
+		.profile-user-xs
+			+mar-t(20px)
+	.content-text 
+		.left-side
+			+pad-r(15px !important)
+		#map 
+			height: 30%
+	.popup-gallery img
+		width: 50%
+		height: 22% 
+	.content-list
+		.owl-item
+			.cover 
+				height: 380px !important
+
+	.related-event
+		+mar-t(40px)
+
+
+	
 	footer
 		img 
 			margin-bottom: 40px
+
 
 @media screen and (min-width: 360px) and (max-width: 480px)
 	.container-bigscreen
@@ -55,6 +81,7 @@
 		width: 205px !important
 	footer .link-bottom
 		+mar-t(40px)	
+
 
 @media screen and (min-width: 500px) and (max-width: 568px) 
 	/* navigation */
@@ -83,6 +110,7 @@
 		.link-bottom
 			+mar-t(40px)
 
+
 @media screen and (max-width: 568px)
 	.navbar-fixed-top .navbar-collapse
 		width: 110%
@@ -100,6 +128,7 @@
 				+fontweight(300)
 				text-align: center
 				color: #70848E
+
 
 @media screen and (max-width: 600px)
 	/* navbar */
@@ -166,9 +195,11 @@
 		.number-3, .number-4
 			display: none
 
+
 @media screen and (min-width: 768px) and (max-width: 1024px)
 	.navbar-brand
 		margin-left: -20px
+
 
 @media screen and (max-width: 1024px)
 	.view, .cover-event-top img

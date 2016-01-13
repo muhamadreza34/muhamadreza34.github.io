@@ -8540,6 +8540,27 @@ a {
   .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover {
     margin-bottom: 110px !important; }
 
+  /* event detail */
+  .event-detail-top .info-event, .promoter-detail-top .info-event, .venue-detail-top .info-event {
+    padding-top: 10px; }
+    .event-detail-top .info-event .profile-user-xs, .promoter-detail-top .info-event .profile-user-xs, .venue-detail-top .info-event .profile-user-xs {
+      margin-top: 20px; }
+
+  .content-text .left-side {
+    padding-right: 15px !important; }
+  .content-text #map {
+    height: 30%; }
+
+  .popup-gallery img {
+    width: 50%;
+    height: 22%; }
+
+  .content-list .owl-item .cover, .content-list .owl-item .cover-normal, .content-list .owl-item .list-blog .blog-cover, .list-blog .content-list .owl-item .blog-cover, .content-list .owl-item .list-venue .blog-cover, .list-venue .content-list .owl-item .blog-cover, .content-list .owl-item .list-venue .venue-cover, .list-venue .content-list .owl-item .venue-cover, .content-list .owl-item .promoter-cover-small {
+    height: 380px !important; }
+
+  .related-event {
+    margin-top: 40px; }
+
   footer img {
     margin-bottom: 40px; } }
 @media screen and (min-width: 360px) and (max-width: 480px) {
