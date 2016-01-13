@@ -8631,11 +8631,19 @@ a {
         font-size: 17px;
         font-weight: 300;
         text-align: center;
-        color: #70848E; } }
+        color: #70848E; }
+
+  .popup-gallery img {
+    width: 25%;
+    height: 30%; } }
 @media screen and (max-width: 600px) {
   /* navbar */
   .navbar-brand {
     padding: 15px 15px; }
+
+  /* event detail */
+  .content-text .left-side {
+    padding-right: 15px !important; }
 
   /* home page */
   .cover-event-top .mask hr {
