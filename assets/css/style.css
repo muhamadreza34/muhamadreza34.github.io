@@ -5888,6 +5888,9 @@ button.close {
   font-size: 13px;
   line-height: 14px; }
 
+.navbar-brand {
+  padding: 15px 0; }
+
 .navbar-brand > img {
   padding-top: 0px !important;
   margin-top: -35px; }
@@ -8630,6 +8633,12 @@ a {
     width: 50%; }
   .hero-big .number-3, .hero-big .number-4 {
     display: none; } }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: -20px; } }
+@media screen and (min-width: 1024px) {
+  .view, .cover-event-top img {
+    height: 390px; } }
 /* Slider */
 .slick-slider {
   position: relative;
