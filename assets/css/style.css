@@ -8592,10 +8592,7 @@ a {
 
   .popup-gallery img {
     width: 33.3333%;
-    height: 28%; }
-
-  footer .link-bottom {
-    margin-top: 40px; } }
+    height: 28%; } }
 @media screen and (min-width: 500px) and (max-width: 568px) {
   /* navigation */
   .navbar-collapse {
