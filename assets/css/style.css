@@ -8506,10 +8506,10 @@ a {
     font-weight: 300; }
 
 @media screen and (max-width: 1024px) {
-  .view, .cover-event-top img {
+  .view, .cover-event-top > img {
     height: 380px; } }
 @media screen and (max-width: 768px) {
-  .view, .cover-event-top img {
+  .view, .cover-event-top > img {
     height: 320px; }
 
   .event-detail-top .cover-image, .promoter-detail-top .cover-image, .venue-detail-top .cover-image {
@@ -8747,7 +8747,11 @@ a {
     width: 100% !important; }
 
   .content-text .left-side {
-    padding: 0px !important; } }
+    padding: 0px !important; }
+
+  .event-detail-top img.cover-image, .promoter-detail-top img.cover-image, .venue-detail-top img.cover-image {
+    margin: 0 auto;
+    display: block; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .hero-big .number-1, .hero-big .content-list .cover .number-2, .content-list .cover .hero-big .number-2, .hero-big .content-list .cover-normal .number-2, .content-list .cover-normal .hero-big .number-2, .hero-big .content-list .list-blog .blog-cover .number-2, .content-list .list-blog .blog-cover .hero-big .number-2, .hero-big .list-blog .content-list .blog-cover .number-2, .list-blog .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .blog-cover .number-2, .content-list .list-venue .blog-cover .hero-big .number-2, .hero-big .list-venue .content-list .blog-cover .number-2, .list-venue .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .venue-cover .number-2, .content-list .list-venue .venue-cover .hero-big .number-2, .hero-big .list-venue .content-list .venue-cover .number-2, .list-venue .content-list .venue-cover .hero-big .number-2, .hero-big .content-list .promoter-cover-small .number-2, .content-list .promoter-cover-small .hero-big .number-2, .hero-big .number-2 {
     width: 50%; }
@@ -8772,7 +8776,7 @@ a {
     display: block;
     height: 24px; } }
 @media screen and (max-width: 1024px) {
-  .view, .cover-event-top img {
+  .view, .cover-event-top > img {
     height: 390px; } }
 @media screen and (max-width: 720px) {
   .gender .price {

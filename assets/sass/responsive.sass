@@ -1,9 +1,9 @@
 @media screen and (max-width: 1024px)
-	.view, .cover-event-top img
+	.view, .cover-event-top > img
 		height: 380px
 	
 @media screen and (max-width: 768px)
-	.view, .cover-event-top img
+	.view, .cover-event-top > img
 		height: 320px
 	.event-detail-top
 		.cover-image 
@@ -251,6 +251,9 @@
 		width: 100% !important
 	.content-text .left-side
 		+pad(0px !important)
+	.event-detail-top img.cover-image
+		margin: 0 auto
+		display: block
 
 @media screen and (min-width: 768px) and (max-width: 1024px)
 	.hero-big
@@ -283,7 +286,7 @@
 
 
 @media screen and (max-width: 1024px)
-	.view, .cover-event-top img
+	.view, .cover-event-top > img
 		height: 390px
 
 @media screen and (max-width: 720px)
