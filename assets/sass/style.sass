@@ -589,13 +589,17 @@
 
 		/* cover */     
 		.number-1
-			background: url(../image/event/1.png)
+			background: url(../image/event/1.png) no-repeat center center
+			background-size: cover
+			-webkit-background-size: cover
+			-moz-background-size: cover
+			-o-background-size: cover
 			background-size: cover
 			display: block
 			min-height: 450px
 		.number-2
 			@extend .number-1
-			background: url(../image/event/4.png)
+			background: url(../image/event/4.png) no-repeat center center
 
 		.wrapper-title
 			position: absolute
@@ -679,8 +683,12 @@
 		position: relative
 		min-height: 220px
 		background-size: cover
-		background: url(../image/event/4.png)
-
+		-webkit-background-size: cover
+		-moz-background-size: cover
+		-o-background-size: cover
+		background-size: cover
+		background: url(../image/event/4.png) no-repeat center center
+ 
 	h5
 		bottom: 0px
 		+mar-l(-10px)
@@ -707,7 +715,11 @@
 			display: block
 			position: relative
 			background-size: cover
-			background: url(../image/blog/1.png)
+			-webkit-background-size: cover
+			-moz-background-size: cover
+			-o-background-size: cover
+			background-size: cover
+			background: url(../image/blog/1.png) no-repeat center center
 
 		.date
 			+fontsize(12px)
@@ -790,11 +802,15 @@
 	display: block
 	position: relative
 	background-size: cover !important
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
 
 	min-height: 220px
 	background-repeat: none
 .pr-1
-	background: url(../image/promoter/1.png)
+	background: url(../image/promoter/1.png) 
 
 
 footer

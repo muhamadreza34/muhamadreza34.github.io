@@ -45,6 +45,12 @@
 	.navbar-header
 		height: 70px
 
+	.hero-big
+		.number-1
+			width: 100% !important
+		.number-2, .number-3, .number-4
+			display: none
+
 	/* event index */
 	.content-promoter
 		.mar-t-100
@@ -76,8 +82,7 @@
 		img 
 			margin-bottom: 40px
 
-
-@media screen and (min-width: 360px) and (max-width: 480px)
+@media screen and (min-width: 450px) and (max-width: 480px)
 	.container-bigscreen
 		+pad-l(0px !important)
 		+pad-r(0px !important)
@@ -90,8 +95,15 @@
 	.popup-gallery img
 		width: 33.3333%
 		height: 28% 
+	.view .cover-event-top
+		height: 360px !important
+		width: 100%
 
-@media screen and (min-width: 500px) and (max-width: 568px) 
+	
+
+
+
+@media screen and (min-width: 480px) and (max-width: 568px) 
 	/* navigation */
 	.navbar-collapse
 		margin-top: 20px
@@ -108,10 +120,10 @@
 		+pad-r(20px !important)
 	.navbar-brand > img 
 		margin-top: -30px
-	.view, .cover-event-top img
-		width: 255px !important
+	// .view, .cover-event-top img
+	// 	width: 50% !important
 	.cover-normal
-		height: 280px !important
+		height: 50% !important
 	footer
 		.link-bottom
 			+mar-t(40px)
@@ -138,8 +150,11 @@
 		width: 25%
 		height: 30% 
 
+	// .view, .cover-event-top img
+	// 	height: 350px !important
 	.view, .cover-event-top img
-		height: 350px !important
+		height: auto !important
+		width: 100%
 	.cover-normal
 		margin-bottom: 80px !important
 	.list-blog .blog-cover
@@ -215,6 +230,25 @@
 		.number-3, .number-4
 			display: none
 
+@media screen and (max-width: 768px)
+	.languange .dropdown-menu > li
+		+pad(10px 0)
+		border-bottom: none
+
+@media screen and (min-width: 480px) and (max-width: 767px)
+	footer .link-bottom
+		margin-top: 40px
+	.list-event .col-xs-12
+		width: 50% !important
+
+@media screen and (min-width: 768px)
+	.container-bigscreen
+		+pad(0px 40px 0 20px)
+
+@media screen and (max-width: 991px)
+	.view, .cover-event-top img
+		height: auto !important
+		width: 100% !important
 
 @media screen and (min-width: 768px) and (max-width: 1024px)
 	.hero-big
@@ -224,21 +258,8 @@
 			display: none
 
 
+
 @media screen and (max-width: 1024px)
 	.view, .cover-event-top img
 		height: 390px
-
-@media screen and (max-width: 768px)
-	.languange .dropdown-menu > li
-		+pad(10px 0)
-		border-bottom: none
-
-@media screen and (max-width: 767px)
-	footer .link-bottom
-		margin-top: 40px
-	.list-event .col-xs-12
-		width: 50% !important
-
-@media screen and (min-width: 768px)
-	.container-bigscreen
-		+pad(0px 40px 0 20px)
+		
