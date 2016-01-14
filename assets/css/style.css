@@ -5917,11 +5917,11 @@ a {
   border-right: 0;
   border-bottom: 0;
   border-radius: 0;
-  border-top: 5px solid #00a7ed;
+  border-top: 5px solid transparent;
   background: transparent; }
 
 .nav-tabs > li > a {
-  padding-top: 25px;
+  padding: 25px;
   border-top: 5px solid transparent; }
 
 .nav-tabs > li > a:hover {
