@@ -7981,7 +7981,7 @@ a {
       float: left;
       height: 64px;
       background: #ededed;
-      width: 75%;
+      width: 74.99%;
       line-height: 65px;
       padding-left: 30px;
       color: #959ea3;
@@ -8744,7 +8744,10 @@ a {
 @media screen and (max-width: 991px) {
   .view, .cover-event-top > img {
     height: auto !important;
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .content-text .left-side {
+    padding: 0px !important; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .hero-big .number-1, .hero-big .content-list .cover .number-2, .content-list .cover .hero-big .number-2, .hero-big .content-list .cover-normal .number-2, .content-list .cover-normal .hero-big .number-2, .hero-big .content-list .list-blog .blog-cover .number-2, .content-list .list-blog .blog-cover .hero-big .number-2, .hero-big .list-blog .content-list .blog-cover .number-2, .list-blog .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .blog-cover .number-2, .content-list .list-venue .blog-cover .hero-big .number-2, .hero-big .list-venue .content-list .blog-cover .number-2, .list-venue .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .venue-cover .number-2, .content-list .list-venue .venue-cover .hero-big .number-2, .hero-big .list-venue .content-list .venue-cover .number-2, .list-venue .content-list .venue-cover .hero-big .number-2, .hero-big .content-list .promoter-cover-small .number-2, .content-list .promoter-cover-small .hero-big .number-2, .hero-big .number-2 {
     width: 50%; }
@@ -8785,6 +8788,12 @@ a {
     left: auto;
     display: block;
     height: 24px; } }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .owl-item {
+    padding: 0 20px; }
+
+  .cover-event-top .mask .gender .price {
+    width: 74%; } }
 /* Slider */
 .slick-slider {
   position: relative;

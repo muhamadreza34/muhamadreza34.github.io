@@ -122,12 +122,20 @@ $(document).ready(function(){
 	  slidesToShow: 1,
 	  responsive: [
 	    {
+	      breakpoint: 1024,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        slidesToShow: 2
+	      }
+	    },
+	    {
 	      breakpoint: 768,
 	      settings: {
 	        arrows: false,
 	        centerMode: true,
 	        centerPadding: '40px',
-	        slidesToShow: 3
+	        slidesToShow: 2
 	      }
 	    },
 	    {

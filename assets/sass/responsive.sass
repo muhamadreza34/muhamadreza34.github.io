@@ -249,6 +249,8 @@
 	.view, .cover-event-top > img
 		height: auto !important
 		width: 100% !important
+	.content-text .left-side
+		+pad(0px !important)
 
 @media screen and (min-width: 768px) and (max-width: 1024px)
 	.hero-big
@@ -299,4 +301,11 @@
 			left: auto
 			display: block
 			height: 24px
-		
+
+@media screen and (min-width: 768px) and (max-width: 1200px)
+	.owl-item
+		+pad(0 20px)
+	.cover-event-top .mask
+		.gender
+			.price
+				width: 74%		
