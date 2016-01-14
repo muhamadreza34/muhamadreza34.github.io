@@ -33,7 +33,7 @@
 			width: 100% !important
 		.number-2, .number-3, .number-4
 			display: none
-	.view, .cover-event-top img 
+	.view, .cover-event-top > img 
 		height: 370px
 		width: 100%
 	.popup-gallery img
@@ -90,7 +90,7 @@
 		+mar-t(-30px)
 	.list-event .col-xs-12
 		width: 50% !important
-	.view, .cover-event-top img
+	.view, .cover-event-top > img
 		width: 205px !important
 	.popup-gallery img
 		width: 33.3333%
@@ -98,10 +98,6 @@
 	.view .cover-event-top
 		height: 360px !important
 		width: 100%
-
-	
-
-
 
 @media screen and (min-width: 480px) and (max-width: 568px) 
 	/* navigation */
@@ -117,11 +113,8 @@
 			display: none
 	.container-bigscreen
 		+pad-l(0px !important)
-		+pad-r(20px !important)
 	.navbar-brand > img 
 		margin-top: -30px
-	// .view, .cover-event-top img
-	// 	width: 50% !important
 	.cover-normal
 		height: 50% !important
 	footer
@@ -150,9 +143,8 @@
 		width: 25%
 		height: 30% 
 
-	// .view, .cover-event-top img
-	// 	height: 350px !important
-	.view, .cover-event-top img
+
+	.view, .cover-event-top > img
 		height: auto !important
 		width: 100%
 	.cover-normal
@@ -160,7 +152,17 @@
 	.list-blog .blog-cover
 		margin-bottom: 120px !important
 
-@media screen and (max-width: 600px)
+	.cover-event-top:hover .mask
+		+pad(0px 10px !important)
+	.mask 
+		.detail-info
+			.time, .cal, .loc
+				+pad-b(8px !important)
+
+		.btn-peneapple
+			+pad(10px 70px)
+
+@media screen and (max-width: 650px)
 	/* navbar */
 	.navbar-brand
 		+pad(15px 15px)
@@ -181,16 +183,14 @@
 				margin: 10px 0 5px 0
 			.gender
 				.men, .women
-					height: 44px !important
+					height: 34px !important
 					width: 30%
 					+pad(11px 30px)
-					img
-						width: 100px
-						height: auto
+					
 				.price
-					width: 70%
-					height: 44px !important
-					line-height: 45px
+					width: 65%
+					height: 34px !important
+					line-height: 36px
 			.bottom
 				+pad(10px 10px)
 				.btn-xs
@@ -246,7 +246,7 @@
 		+pad(0px 40px 0 20px)
 
 @media screen and (max-width: 991px)
-	.view, .cover-event-top img
+	.view, .cover-event-top > img
 		height: auto !important
 		width: 100% !important
 
@@ -257,9 +257,46 @@
 		.number-3, .number-4
 			display: none
 
+@media screen and (min-width: 991px) and (max-width: 1024px)
+	.cover-event-top 
+		.mask 
+			hr 
+				+mar(10px 0 15px 0)
+			.detail-info
+				+mar(5px 0 !important)
+			.gender
+				.price
+					line-height: 45px
+					height: 44px
+				.men, .women
+					height: 44px
+					+pad(0 !important)
+				img 
+					margin: 0 auto
+					right: auto
+					margin-top: 10px
+					left: auto
+					display: block
+					height: 24px
 
 
 @media screen and (max-width: 1024px)
 	.view, .cover-event-top img
 		height: 390px
+
+@media screen and (max-width: 720px)
+	.gender
+		.price
+			line-height: 45px !important
+			height: 44px !important
+		.men, .women
+			height: 44px !important
+			+pad(0 !important)
+		img 
+			margin: 0 auto
+			right: auto
+			margin-top: 10px
+			left: auto
+			display: block
+			height: 24px
 		
