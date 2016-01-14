@@ -237,7 +237,7 @@
 				color: #00adee
 	.detail-info
 		+pad(0 10px)
-		+mar(40px 0 5px 0)
+		+mar(20px 0 5px 0)
 		display: inline-block
 		.loc, .cal, .time
 			width: 100%
@@ -270,9 +270,11 @@
 			color: #959ea3
 			+fontweight(100)
 			+fontsize(20px)
-	.bottom .btn-xs
-		@extend .btn-peneapple
+	.bottom 
 		+pad(10px)
+		.btn-xs
+			@extend .btn-peneapple
+			+pad(10px)
 
 .cover-event-top a.info
 	position: relative

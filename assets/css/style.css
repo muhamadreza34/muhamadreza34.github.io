@@ -7954,7 +7954,7 @@ a {
         color: #00adee; }
   .cover-event-top .mask .detail-info {
     padding: 0 10px;
-    margin: 40px 0 5px 0;
+    margin: 20px 0 5px 0;
     display: inline-block; }
     .cover-event-top .mask .detail-info .loc, .cover-event-top .mask .detail-info .cal, .cover-event-top .mask .detail-info .time {
       width: 100%;
@@ -7987,8 +7987,10 @@ a {
       color: #959ea3;
       font-weight: 100;
       font-size: 20px; }
-  .cover-event-top .mask .bottom .btn-xs, .cover-event-top .mask .bottom .btn-group-xs > .btn {
+  .cover-event-top .mask .bottom {
     padding: 10px; }
+    .cover-event-top .mask .bottom .btn-xs, .cover-event-top .mask .bottom .btn-group-xs > .btn {
+      padding: 10px; }
 
 .cover-event-top a.info {
   position: relative;
@@ -8721,6 +8723,9 @@ a {
   .languange .dropdown-menu > li {
     padding: 10px 0;
     border-bottom: none; } }
+@media screen and (max-width: 767px) {
+  footer .link-bottom {
+    margin-top: 40px; } }
 @media screen and (min-width: 768px) {
   .container-bigscreen {
     padding: 0px 40px 0 20px; } }
