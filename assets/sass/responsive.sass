@@ -11,7 +11,8 @@
 			margin: 0 auto
 			display: block
 			margin-bottom: 30px
-	.content-text 
+	.content-text
+		padding: 20px 15px
 		.left-side
 			+pad-r(15px !important)	
 	.popup-gallery img 
@@ -36,7 +37,7 @@
 	.view, .cover-event-top > img 
 		height: 370px
 		width: 100%
-	.popup-gallery img
+	.popup-gallery > img
 		width: 50%
 		height: 22% 
 
@@ -44,7 +45,9 @@
 @media screen and (max-width: 480px)
 	.navbar-header
 		height: 70px
-
+	.popup-gallery img
+		width: 50% !important
+		height: 30% !important
 	.hero-big
 		.number-1
 			width: 100% !important
@@ -127,6 +130,8 @@
 		width: 110%
 	.navbar-right
 		+mar-t(-20px)	
+	.owl-item
+		+pad(20px)
 	.navbar-collapse
 		background: #363d41
 		height: 568px
