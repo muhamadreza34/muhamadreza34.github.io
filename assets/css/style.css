@@ -8549,7 +8549,25 @@ a {
     height: 22%; } }
 @media screen and (max-width: 480px) {
   .navbar-collapse {
-    margin-top: -5px; }
+    margin-top: 0px !important; }
+
+  /* blog */
+  .slide-blog {
+    height: auto !important; }
+    .slide-blog li > img {
+      height: 350px !important; }
+    .slide-blog li:before {
+      height: 350px; }
+    .slide-blog li .title-blog {
+      left: 35px; }
+      .slide-blog li .title-blog h1 {
+        width: 90%; }
+
+  .slick-slide {
+    height: auto !important; }
+
+  .slick-slider {
+    margin-top: 90px; }
 
   .navbar-header {
     height: 70px; }
@@ -8589,6 +8607,10 @@ a {
 
   .related-event {
     margin-top: 40px; }
+
+  /* promoter */
+  .content-promoter .venue-cover {
+    margin-bottom: 30px !important; }
 
   footer img {
     margin-bottom: 40px; } }
