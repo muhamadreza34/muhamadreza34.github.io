@@ -108,23 +108,24 @@ html lang="en"
 
 				ul.nav.navbar-nav.menus.hidden-xs
 					li
-						a href="#"  City
-					li
-						a href="#"  Near Me
-					li
 						a href="#"
 							i.fa.fa-search id="trigger-overlay"
 					li
-						a 
-							i.fa.fa-bars id="open-button"
+						a id="open-button"
+							i.fa.fa-bars
 						/ button class="menu-button" id="open-button"
 							| Open Menu
+					li
+						a href="#"  City
+					li
+						a href="#"  Near Me
 
 				#navbar.navbar-collapse.collapse
 					.navbar-right
 						li.dropdown.languange
 							a.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button" 
 								img src="assets/image/en.png" alt="en" width="25"
+								span  English
 								span.caret
 							ul.dropdown-menu
 								li
@@ -139,15 +140,13 @@ html lang="en"
 							a href="#"  City
 						li.visible-xs
 							a href="#"  Near Me
-						li.visible-xs
+						li.visible-xs id="trigger-overlay"
 							a href="#"
-								i.fa.fa-search id="trigger-overlay" 
-								| &nbsp; Search
+								| Search
 						li.visible-xs
-							a 
-								i.fa.fa-bars id="open-button"
+							a id="open-button"
 								/ button class="menu-button" id="open-button"
-								| &nbsp; Open Menu
+								| Open Menu
 		
 		/ .wrap-hero-big
 		.hero-big

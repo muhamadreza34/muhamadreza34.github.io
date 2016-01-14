@@ -150,7 +150,7 @@ $(document).ready(function(){
 
 	var bodyEl = document.body,
 		content = document.querySelector( 'body' ),
-		openbtn = document.getElementById( 'open-button' ),
+		openbtn = document.getElementById( 'open-button', 'navbar open-button' ),
 		closebtn = document.getElementById( 'close-button' ),
 		isOpen = false;
 

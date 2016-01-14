@@ -8713,11 +8713,20 @@ a {
   .hero-big .number-3, .hero-big .number-4 {
     display: none; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .navbar-brand {
-    margin-left: -20px; } }
+  .hero-big .number-1, .hero-big .content-list .cover .number-2, .content-list .cover .hero-big .number-2, .hero-big .content-list .cover-normal .number-2, .content-list .cover-normal .hero-big .number-2, .hero-big .content-list .list-blog .blog-cover .number-2, .content-list .list-blog .blog-cover .hero-big .number-2, .hero-big .list-blog .content-list .blog-cover .number-2, .list-blog .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .blog-cover .number-2, .content-list .list-venue .blog-cover .hero-big .number-2, .hero-big .list-venue .content-list .blog-cover .number-2, .list-venue .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .venue-cover .number-2, .content-list .list-venue .venue-cover .hero-big .number-2, .hero-big .list-venue .content-list .venue-cover .number-2, .list-venue .content-list .venue-cover .hero-big .number-2, .hero-big .content-list .promoter-cover-small .number-2, .content-list .promoter-cover-small .hero-big .number-2, .hero-big .number-2 {
+    width: 50%; }
+  .hero-big .number-3, .hero-big .number-4 {
+    display: none; } }
 @media screen and (max-width: 1024px) {
   .view, .cover-event-top img {
     height: 390px; } }
+@media screen and (max-width: 768px) {
+  .languange .dropdown-menu > li {
+    padding: 10px 0;
+    border-bottom: none; } }
+@media screen and (min-width: 768px) {
+  .container-bigscreen {
+    padding: 0px 40px 0 20px; } }
 /* Slider */
 .slick-slider {
   position: relative;
