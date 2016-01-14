@@ -8614,9 +8614,6 @@ a {
   .navbar-brand > img {
     margin-top: -30px; }
 
-  .list-event .col-xs-12, .list-blog .col-xs-12, .list-venue .col-xs-12 {
-    width: 50% !important; }
-
   .view, .cover-event-top img {
     width: 255px !important; }
 
@@ -8647,7 +8644,16 @@ a {
 
   .popup-gallery img {
     width: 25%;
-    height: 30%; } }
+    height: 30%; }
+
+  .view, .cover-event-top img {
+    height: 350px !important; }
+
+  .cover-normal, .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover, .promoter-cover-small {
+    margin-bottom: 80px !important; }
+
+  .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover {
+    margin-bottom: 120px !important; } }
 @media screen and (max-width: 600px) {
   /* navbar */
   .navbar-brand {
@@ -8725,7 +8731,10 @@ a {
     border-bottom: none; } }
 @media screen and (max-width: 767px) {
   footer .link-bottom {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+
+  .list-event .col-xs-12, .list-blog .col-xs-12, .list-venue .col-xs-12 {
+    width: 50% !important; } }
 @media screen and (min-width: 768px) {
   .container-bigscreen {
     padding: 0px 40px 0 20px; } }
