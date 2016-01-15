@@ -163,6 +163,9 @@
 			height: 430px !important
 		li:before
 			height: 430px !important
+		li .title-blog
+			top: 120px !important
+			left: 40px !important
 
 
 @media screen and (max-width: 568px)
@@ -206,7 +209,6 @@
 
 		.btn-peneapple
 			+pad(10px 70px)
-
 
 @media screen and (max-width: 650px)
 	/* navbar */
@@ -276,11 +278,28 @@
 		.number-3, .number-4
 			display: none
 
+
+
+// ****************************** 
+//            tablet size
+// ******************************
 @media screen and (max-width: 768px)
 	.languange .dropdown-menu > li
 		+pad(10px 0)
 		border-bottom: none
-
+	.slide-blog
+		height: auto !important
+	.slick-slide
+		height: auto !important
+@media screen and (min-width: 568px) and (max-width: 768px)
+	.slide-blog 
+		li
+			> img, &:before 
+				height: 480px !important 
+				
+			.title-blog
+				top: 160px
+				left: 40px
 @media screen and (min-width: 480px) and (max-width: 767px)
 	footer .link-bottom
 		margin-top: 40px

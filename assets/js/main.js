@@ -101,14 +101,24 @@ $(document).ready(function(){
 
 	$('.slide-blog').slick({
 	  centerMode: true,
-	  centerPadding: '350px',
+	  centerPadding: '550px',
 	  slidesToShow: 1,
 	  responsive: [
+	  	{
+	      breakpoint: 1700,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '100px',
+	        slidesToShow: 1
+	      }
+	    },
 	    {
 	      breakpoint: 1024,
 	      settings: {
 	        arrows: false,
 	        centerMode: true,
+	        centerPadding: '40px',
 	        slidesToShow: 1
 	      }
 	    },
