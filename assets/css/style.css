@@ -8025,7 +8025,7 @@ a {
       height: 620px; } }
 .date-tab {
   background: #1f2427;
-  height: 163px;
+  height: 183px;
   width: 100%;
   text-align: center; }
   .date-tab .list-month {
@@ -8339,6 +8339,14 @@ a {
 
 .venue-xs {
   min-height: 200px !important; }
+
+.slick-dots li:before {
+  height: 30px !important;
+  width: 30px !important;
+  color: red;
+  background: transparent; }
+.slick-dots li button:before {
+  font-size: 36px !important; }
 
 .slick-slide {
   position: relative; }
