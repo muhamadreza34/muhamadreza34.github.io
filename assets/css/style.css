@@ -8586,6 +8586,9 @@ a {
   .navbar-collapse {
     margin-top: 0px !important; }
 
+  .overlay ul li a {
+    float: left !important; }
+
   /* blog */
   .slide-blog {
     height: auto !important; }
@@ -8823,7 +8826,13 @@ a {
     padding-top: 20px !important; }
 
   .menu-wrap {
-    width: 320px !important; } }
+    width: 320px !important; }
+
+  .overlay-simplegenie.open {
+    overflow-x: scroll !important; }
+
+  .overlay {
+    padding: 20px; } }
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .slide-blog li > img, .slide-blog li:before {
     height: 480px !important; }
