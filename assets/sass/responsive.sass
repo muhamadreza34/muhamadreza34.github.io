@@ -41,6 +41,16 @@
 		width: 50%
 		height: 22% 
 
+@media screen and (max-width: 386px)
+	.slide-blog li > img 
+		height: 270px !important
+
+@media screen and (min-width: 386px) and (max-width: 480px)
+	.slide-blog 
+		li > img
+			height: 300px !important
+		li:before
+			height: 300px !important
 	
 @media screen and (max-width: 480px)
 	.navbar-collapse
@@ -49,14 +59,13 @@
 	/* blog */	
 	.slide-blog 
 		height: auto !important
-		li > img
-			height: 350px !important
 		li:before
 			height: 350px
 		li .title-blog
 			left: 35px
 			h1	
 				width: 90%
+				+fontsize(28px)
 
 	.slick-slide 
 		height: auto !important
@@ -148,6 +157,13 @@
 		.link-bottom
 			+mar-t(40px)
 
+	/* blog */
+	.slide-blog 
+		li > img
+			height: 430px !important
+		li:before
+			height: 430px !important
+
 
 @media screen and (max-width: 568px)
 	.navbar-fixed-top .navbar-collapse
@@ -190,6 +206,7 @@
 
 		.btn-peneapple
 			+pad(10px 70px)
+
 
 @media screen and (max-width: 650px)
 	/* navbar */
