@@ -8417,6 +8417,12 @@ a {
   margin-top: 150px; }
   .blog-detail h1, .blog-detail h2, .blog-detail h3, .blog-detail h4, .blog-detail h5 {
     font-weight: 700; }
+  .blog-detail .post-name {
+    height: 35px;
+    font-size: 13px; }
+    .blog-detail .post-name span {
+      color: #9cce00;
+      font-style: italic; }
   .blog-detail .quotes {
     font-family: "Playfair Display", serif;
     border-left: 4px solid #d9dfe2;
@@ -9072,7 +9078,7 @@ a {
 .w-100, .input-simple, .form-search-dark, .event-detail-top, .promoter-detail-top, .venue-detail-top {
   width: 100% !important; }
 
-.mar-0 {
+.mar-0, .blog-detail .post-name {
   margin: 0px !important; }
 
 .mar-tm-10 {
@@ -9102,7 +9108,7 @@ a {
 .prefix-bor {
   margin-bottom: 50px !important; }
 
-.pad-none {
+.pad-none, .blog-detail .post-name {
   padding: 0px; }
 
 .pad-r-55 {
