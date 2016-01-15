@@ -241,14 +241,27 @@ html lang="en"
 					.clearfix
 					.col-md-12.col-xs-12
 						.list-month
-							.month
-								| DEC
-							span.week
-								| THIS WEEK
+							/ .month
+							/ 	| DEC
+							/ span.week
+							/ 	| THIS WEEK
 
-							.tab#content-6
+							.tab#content-cal
 								/! Nav tabs
-								ul.nav.nav-tabs role="tablist" 
+								ul.nav.nav-tabs role="tablist"
+									/ li
+									/ 	a 
+									/ 		.month
+									/ 			| DEC 
+									/ li
+									/ 	span.week
+									/ 	| THIS WEEK
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg DEC
+									li role="presentation"
+										span.week
+											| THIS WEEK
 									li.active role="presentation" 
 										a aria-controls="home" data-toggle="tab" href="#home" role="tab"  
 											.day-xs mon
@@ -279,54 +292,87 @@ html lang="en"
 											.day-xs sat
 											.date-xs 19
 											.month-xs DEC
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| JAN
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| FEB
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| MAR
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| APR
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| MAY
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| JUN
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| JUL
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| AUG
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| SEP
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| OCT
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| NOV
-									li role="presentation"
-										.month.mar-l-20
-											a href=""
-												| DEC					
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg JAN
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg FEB
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg MAR
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg APR
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg MAY
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg JUN
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg JUL
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg AUG
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg SEP
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg OCT
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg NOV
+									li role="presentation" 
+										a aria-controls="homes" data-toggle="tab" href="#homes" role="tab"  
+											.month-lg DEC
+									
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			.month-lg FEB
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			.month-lg MAR
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| APR
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| MAY
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| JUN
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| JUL
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| AUG
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| SEP
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| OCT
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| NOV
+									/ li role="presentation"
+									/ 	.month.mar-l-20
+									/ 		a href=""
+									/ 			| DEC					
 
 			#map
 

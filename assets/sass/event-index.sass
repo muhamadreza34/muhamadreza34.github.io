@@ -1,6 +1,13 @@
+#content-cal
+	li.active > a
+		border-top: 3px solid #00adee
+	li.active
+		.month-lg a 
+			border-top: 3px solid #00adee			 
+ 
 .date-tab
 	background: #1f2427
-	height: 183px
+	height: 193px
 	width: 100%
 	text-align: center
 	.list-month
@@ -21,8 +28,8 @@
 			+mar-l(17px)
 			+mar-t(53px)
 			line-height: 20px
+			overflow: hidden
 			color: #878787
-			width: 90px
 			float: left
 
 		.day-xs, .date-xs, .month-xs
@@ -38,6 +45,14 @@
 		.month-xs
 			+fontsize(12px)
 			+fontweight(100)
+		.month-lg
+			+fontsize(46px)
+			+fontweight(500)
+			+mar-t(34px)
+			a 
+				@extend .month
+				color: #4b5053
+				+mar-t(0px !important)
 		.more
 			+mar-t(40px)
 			opacity: 0.6

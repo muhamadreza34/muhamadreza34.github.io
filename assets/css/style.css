@@ -5879,7 +5879,7 @@ button.close {
   background: transparent; }
 
 .navbar {
-  padding-top: 25px;
+  padding-top: 40px 25px 30px 25px;
   font-weight: 600;
   height: 95px;
   background: #171b1d; }
@@ -5907,7 +5907,7 @@ a {
 /* tab */
 .nav-tabs {
   border-bottom: none;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch; }
@@ -8023,9 +8023,14 @@ a {
     min-height: 620px; }
     .hero-big .number-1, .hero-big .content-list .cover .number-2, .content-list .cover .hero-big .number-2, .hero-big .content-list .cover-normal .number-2, .content-list .cover-normal .hero-big .number-2, .hero-big .content-list .list-blog .blog-cover .number-2, .content-list .list-blog .blog-cover .hero-big .number-2, .hero-big .list-blog .content-list .blog-cover .number-2, .list-blog .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .blog-cover .number-2, .content-list .list-venue .blog-cover .hero-big .number-2, .hero-big .list-venue .content-list .blog-cover .number-2, .list-venue .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .venue-cover .number-2, .content-list .list-venue .venue-cover .hero-big .number-2, .hero-big .list-venue .content-list .venue-cover .number-2, .list-venue .content-list .venue-cover .hero-big .number-2, .hero-big .content-list .promoter-cover-small .number-2, .content-list .promoter-cover-small .hero-big .number-2, .hero-big .number-2, .hero-big .number-3, .hero-big .number-4 {
       height: 620px; } }
+#content-cal li.active > a {
+  border-top: 3px solid #00adee; }
+#content-cal li.active .month-lg a {
+  border-top: 3px solid #00adee; }
+
 .date-tab {
   background: #1f2427;
-  height: 183px;
+  height: 193px;
   width: 100%;
   text-align: center; }
   .date-tab .list-month {
@@ -8033,14 +8038,14 @@ a {
     /* Let's get this party started */
     /* Track */
     /* Handle */ }
-    .date-tab .list-month .month, .date-tab .list-month .month a {
+    .date-tab .list-month .month, .date-tab .list-month .month a, .date-tab .list-month .month-lg a {
       font-size: 46px;
       margin-top: 40px;
       float: left;
       color: #4b5053; }
-      .date-tab .list-month .month a {
+      .date-tab .list-month .month a, .date-tab .list-month .month-lg a a {
         margin-top: 0px !important; }
-      .date-tab .list-month .month:nth-child(1), .date-tab .list-month .month a:nth-child(1) {
+      .date-tab .list-month .month:nth-child(1), .date-tab .list-month .month a:nth-child(1), .date-tab .list-month .month-lg a:nth-child(1) {
         margin-right: 0; }
     .date-tab .list-month .week {
       font-size: 20px;
@@ -8048,8 +8053,8 @@ a {
       margin-left: 17px;
       margin-top: 53px;
       line-height: 20px;
+      overflow: hidden;
       color: #878787;
-      width: 90px;
       float: left; }
     .date-tab .list-month .day-xs, .date-tab .list-month .date-xs, .date-tab .list-month .month-xs {
       color: #878787; }
@@ -8064,6 +8069,13 @@ a {
     .date-tab .list-month .month-xs {
       font-size: 12px;
       font-weight: 100; }
+    .date-tab .list-month .month-lg {
+      font-size: 46px;
+      font-weight: 500;
+      margin-top: 34px; }
+      .date-tab .list-month .month-lg a {
+        color: #4b5053;
+        margin-top: 0px !important; }
     .date-tab .list-month .more {
       margin-top: 40px;
       opacity: 0.6; }
@@ -8774,10 +8786,10 @@ a {
       font-weight: 600; }
 
   /* event index */
-  .list-month .month, .date-tab .list-month .month a, .list-month span > .week {
+  .list-month .month, .date-tab .list-month .month a, .date-tab .list-month .month-lg a, .list-month span > .week {
     text-align: left;
     float: left; }
-  .list-month .month, .date-tab .list-month .month a {
+  .list-month .month, .date-tab .list-month .month a, .date-tab .list-month .month-lg a {
     font-size: 26px !important; }
   .list-month .week {
     font-size: 15px !important;
