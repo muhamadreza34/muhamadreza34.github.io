@@ -111,7 +111,7 @@ html lang="en"
 					a.navbar-brand href="index.html"  
 						img src="assets/image/logo.png" class="logo-small" alt="Taiwan Nights Logo"
 
-				ul.nav.navbar-nav.menus
+				ul.nav.navbar-nav.menus.hidden-xs
 					li
 						a href="#"  City
 					li
@@ -130,6 +130,7 @@ html lang="en"
 						li.dropdown.languange
 							a.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button" 
 								img src="assets/image/en.png" alt="en" width="25"
+								span  English
 								span.caret
 							ul.dropdown-menu
 								li
@@ -140,6 +141,17 @@ html lang="en"
 									a href="#"  
 										img src="assets/image/taiwan.png" alt="taiwan" width="25"
 										span Taiwan
+						li.visible-xs
+							a href="#"  City
+						li.visible-xs
+							a href="#"  Near Me
+						li.visible-xs
+							a href="#"
+								| Search
+						li.visible-xs
+							a 
+								/ button class="menu-button" id="open-button"
+								| Open Menu
 
 		.container
 			.row
@@ -302,12 +314,12 @@ html lang="en"
 		footer
 			.container
 				.row
-					.col-md-6
+					.col-md-4.col-sm-3.col-xs-12
 						a href="index.html"
 							img src="assets/image/logo.png" alt="logo big" 
-					.col-md-6
+					.col-md-7.col-sm-8.col-sm-offset-1.col-xs-12
 						.row
-							.col-md-3
+							.col-md-3.col-sm-3.col-xs-4
 								h4.grey-col Support
 								ul.list-unstyled
 									li 
@@ -317,7 +329,7 @@ html lang="en"
 									li
 										a href="" twitter
 
-							.col-md-3.col-md-offset-2
+							.col-md-3.col-md-offset-2.col-sm-3.col-xs-4
 								h4.grey-col The Company
 								ul.list-unstyled
 									li 
@@ -325,7 +337,7 @@ html lang="en"
 									li 
 										a href="" Blog
 
-							.col-md-2.col-md-offset-2
+							.col-md-2.col-md-offset-2.col-sm-3.col-xs-4
 								h4.grey-col Stuff
 								ul.list-unstyled
 									li
