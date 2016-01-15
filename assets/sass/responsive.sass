@@ -186,7 +186,7 @@
 			a 
 				+fontsize(17px)
 				+fontweight(300)
-				text-align: center
+				text-align: left
 				color: #70848E
 	.popup-gallery img
 		width: 25%
@@ -210,6 +210,12 @@
 
 		.btn-peneapple
 			+pad(10px 70px)
+
+
+	ul.menus li:nth-child(1)
+		margin-left: 0px !important
+
+
 
 @media screen and (max-width: 650px)
 	/* navbar */
@@ -294,6 +300,9 @@
 		height: auto !important
 	.navbar 
 		+pad-t(20px !important)
+	.menu-wrap
+		width: 320px !important
+		
 @media screen and (min-width: 568px) and (max-width: 768px)
 	.slide-blog 
 		li
@@ -312,6 +321,10 @@
 @media screen and (min-width: 768px)
 	.container-bigscreen
 		+pad(20px 40px 0 20px !important)
+	.menus
+		+mar-l(40px)
+	.navbar-right
+		+mar-t(-45px)
 
 @media screen and (max-width: 991px)
 	.view, .cover-event-top > img
