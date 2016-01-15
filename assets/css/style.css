@@ -8814,7 +8814,10 @@ a {
     height: auto !important; }
 
   .slick-slide {
-    height: auto !important; } }
+    height: auto !important; }
+
+  .navbar {
+    padding-top: 20px !important; } }
 @media screen and (min-width: 568px) and (max-width: 768px) {
   .slide-blog li > img, .slide-blog li:before {
     height: 480px !important; }
